@@ -50,3 +50,28 @@ footer{
     font-weight: bold;
  }
 
+ ul {
+    list-style-type: none;      /*levesszük a listajelölőt*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+ }
+
+ li {
+    display: inline;        /* egy sorba teszi a menüpontokat*/
+    /* float: left; */
+}
+
+li a{  
+    background-color: rgb(9, 75, 20);
+    color: white;
+    text-align: center;
+    padding:40px;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: none;
+    background-color: white;
+    color:rgb(9, 75, 20);
+}
